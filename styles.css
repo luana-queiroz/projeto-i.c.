@@ -1,0 +1,146 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap');
+
+*{
+  margin: 0%;
+}
+
+body{
+  background-color: #FCFAEF;
+}
+
+.topicos-cabecalho{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #C3B9CA;
+  color: #FCFAEF;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+  box-shadow: 0px 0px 6px rgba(112, 112, 112, 0.38);
+}
+
+.corpo{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.conteudo{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  margin-top: 10%;
+  margin-bottom: 10%;   
+}
+
+.foto-luana{
+  width: 200px;
+  height: fit-content;
+  margin-right: 5%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 6px rgba(112, 112, 112, 0.38);
+}
+
+.conteudo-sobre{
+  color: rgb(37, 36, 37);   
+}
+
+.sobre-titulo{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+.sobre-texto{
+  margin-top: 2%;
+  font-size: large;
+  text-align: justify;       
+}
+
+.segunda-pagina{   
+  background-color: #c3b9ca;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: rgb(37, 36, 37);
+  box-shadow: 0px 0px 6px rgba(112, 112, 112, 0.38);
+}
+
+.conteudo-seg-pag{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+    margin-bottom: 5%  
+}
+
+.conteudo-contato{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+.lattes-link{
+  margin-top: 30px;
+}
+
+.github-link{
+  margin-top: 15px;
+}
+
+.email-cin{
+  margin-top: 15px; 
+}
+
+@media (max-width: 900px) {
+  .content-conteudo {
+    flex-flow: column;
+  }
+  
+  .conteudo {
+    flex-flow: column;
+  }
+}
+
+.terceira-pagina{
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
+.foto-bella{
+  width: 25vw;
+  height: fit-content;
+  margin-right: 2%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 6px rgba(112, 112, 112, 0.5);
+}
+
+.foto-paisagem{
+  height: auto;
+  width: 14vw;
+  margin-right: 2%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 6px rgba(112, 112, 112, 0.5);
+}
+
+.foto-parede-amarela{
+  width: 33vw;
+  height: fit-content;
+  border-radius: 10%;
+  box-shadow: 0px 0px 6px rgba(112, 112, 112, 0.5);
+}
+
+.terceira-pagina-imagens{
+  display: flex;
+  flex-flow: row;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo-galeria{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
